@@ -9,7 +9,7 @@ public class HelloController {
 
 
     @RequestMapping("/hello")
-    public String login(String name) {
+    public String hello(String name) {
 //        cityMapper.findByState("CA")
 //        HttpMessageConverter d;
         System.out.println("hello " + name);
@@ -17,5 +17,13 @@ public class HelloController {
         return "hello " + name;
     }
 
+
+
+    @RequestMapping("/test")
+    public String test() {
+        System.out.println();
+
+        return "test success!!!";
+    }
 //
 }
