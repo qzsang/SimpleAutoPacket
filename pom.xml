@@ -39,7 +39,7 @@
 
     <!-- Package as an executable jar  -->
     <build>
-        <finalName>JenkinsDemo</finalName>
+        <finalName>SimpleAutoPacket</finalName>
         <!-- 打包插件  mvn package -->
         <plugins>
             <plugin>
